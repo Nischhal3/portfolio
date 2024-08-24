@@ -1,0 +1,49 @@
+body {
+  background-color: #222222;
+  color: white;
+  /* height: 100vh; */
+}
+
+.app-nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.app-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.app-nav li {
+  padding: 10px;
+  position: relative;
+}
+
+.app-nav li a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.app-nav li a i {
+  margin-right: 8px;
+}
+
+.app-nav li a.active,
+.app-nav li a:hover {
+  color: green;
+  font-weight: bold;
+}
+
+.app-nav li a:hover {
+  color: rebeccapurple;
+  transform: scale(1.1);
+}
