@@ -1,0 +1,60 @@
+.experience-container {
+  margin: 0 auto;
+  text-align: center;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  color: black;
+}
+
+.experience-container h2 {
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.experience {
+  font-size: 14px;
+  text-align: left;
+  padding: auto;
+  margin: 0;
+}
+
+.experience {
+  font-size: 14px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.experience > div {
+  margin-bottom: 20px;
+}
+
+.experience h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-decoration: underline;
+}
+
+.experience p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.experience ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.experience li {
+  position: relative;
+  padding-left: 24px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.experience > div:not(:first-of-type) {
+  margin-top: 50px;
+}

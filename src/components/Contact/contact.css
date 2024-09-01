@@ -1,0 +1,41 @@
+.contact-sidebar {
+  position: fixed;
+  left: 60px;
+  top: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  z-index: 1000;
+}
+
+.contact-sidebar h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+
+.contact-link {
+  color: #008080;
+  text-decoration: none;
+  font-size: 35px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-link i {
+  margin-right: 8px;
+}
+
+.contact-link:hover {
+  color: rebeccapurple;
+}
