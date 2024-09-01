@@ -30,10 +30,12 @@ const HamburgerMenu = () => {
               key={link.label}
               className={link.label === "Home" ? "home-item" : ""}
             >
-              <Link to={link.path} onClick={() => setIsOpen(false)}>
-                <i className={`fas ${link.icon}`}></i>
-                {link.label}
-              </Link>
+              <li key={link.id} onClick={() => setIsOpen(false)}>
+                <a href={`#${link.id}`}>
+                  <i className={`fas ${link.icon}`}></i>
+                  {link.label}
+                </a>
+              </li>
               {link.label === "Home" && (
                 <div className="close-icon" onClick={toggleMenu}>
                   <i className="fa-solid fa-xmark"></i>

@@ -9,12 +9,6 @@
   z-index: 1000;
 }
 
-.contact-sidebar h2 {
-  margin: 0;
-  margin-bottom: 20px;
-  font-size: 18px;
-}
-
 .contact-links {
   display: flex;
   flex-direction: column;
@@ -38,4 +32,30 @@
 
 .contact-link:hover {
   color: rebeccapurple;
+}
+
+@media only screen and (min-width: 344px) and (max-width: 540px) {
+  .contact-sidebar {
+    position: sticky;
+    padding: 0;
+  }
+
+  .contact-links {
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: lightblue;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 853px) {
+  .contact-sidebar {
+    left: -35px;
+  }
+}
+@media only screen and (min-width: 912px) and (max-width: 1024px) {
+  .contact-sidebar {
+    left: -30px;
+  }
 }

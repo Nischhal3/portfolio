@@ -70,3 +70,30 @@ body {
 #contact {
   scroll-margin-top: -10px;
 }
+/**
+344px
+360px
+375px
+390px
+412px
+414px
+430px
+540px
+768px
+*/
+@media (max-width: 540px) {
+  .app-nav {
+    display: none;
+  }
+}
+
+@media (max-width: 540px) {
+  .app-nav {
+    right: 20px;
+    justify-content: space-evenly;
+  }
+
+  .app-nav li a {
+    font-size: 16px;
+  }
+}

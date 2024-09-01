@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Contact from "./components/Contact";
 import About from "./components/About/About";
 import Projects from "./components/Projects";
+import HamburgerMenu from "./components/HamburgerMenu";
 import Experience from "./components/Experience";
 
 import "./app.css";
@@ -20,10 +21,11 @@ const App = () => {
     about: React.createRef(),
     projects: React.createRef(),
     experience: React.createRef(),
+    contact: React.createRef(),
   });
 
   useEffect(() => {
-    const { home, about, projects, experience } = sectionRefs.current;
+    const { home, about, projects, experience, contact } = sectionRefs.current;
 
     const observerCallback = (entries) => {
       entries.forEach((entry) => {
@@ -37,14 +39,14 @@ const App = () => {
       threshold: 0.5,
     });
 
-    [home, about, projects, experience].forEach((ref) => {
+    [home, about, projects, experience, contact].forEach((ref) => {
       if (ref.current) {
         observer.observe(ref.current);
       }
     });
 
     return () => {
-      [home, about, projects, experience].forEach((ref) => {
+      [home, about, projects, experience, contact].forEach((ref) => {
         if (ref.current) {
           observer.unobserve(ref.current);
         }
@@ -56,16 +58,19 @@ const App = () => {
     <div className={`app ${isAboutSectionActive ? "about-active" : ""}`}>
       <nav className="app-nav">
         <ul>
-          {navLinks.map((link) => (
-            <li key={link.id}>
-              <a href={`#${link.id}`}>
-                <i className={`fas ${link.icon}`}></i>
-                {link.label}
-              </a>
-            </li>
-          ))}
+          {navLinks
+            .filter((link) => link.id !== "contact")
+            .map((link) => (
+              <li key={link.id}>
+                <a href={`#${link.id}`}>
+                  <i className={`fas ${link.icon}`}></i>
+                  {link.label}
+                </a>
+              </li>
+            ))}
         </ul>
       </nav>
+      <HamburgerMenu />
       <div id="home" ref={sectionRefs.current.home}>
         <Home />
       </div>
@@ -78,7 +83,9 @@ const App = () => {
       <div id="experience" ref={sectionRefs.current.experience}>
         <Experience />
       </div>
-      <Contact />
+      <div id="contact" ref={sectionRefs.current.contact}>
+        <Contact />
+      </div>
     </div>
   );
 };

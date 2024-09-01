@@ -3,6 +3,7 @@
   padding: 0 20px;
   padding: 50px 0;
   height: 100%;
+  width: 100%;
   background-color: #fff;
   color: black;
 }
@@ -91,4 +92,84 @@
 }
 .skill-item:nth-child(4) {
   --i: 3;
+}
+
+@media only screen and (min-width: 344px) and (max-width: 390px) {
+  .my-detail {
+    max-width: 300px;
+    font-size: 12px;
+  }
+
+  .skills-grid {
+    gap: 7px;
+  }
+
+  .skill-item img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 430px) {
+  .my-detail {
+    max-width: 380px;
+    font-size: 14px;
+  }
+
+  .skills-grid {
+    gap: 10px;
+  }
+
+  .skill-item img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media only screen and (min-width: 431px) and (max-width: 540px) {
+  .my-detail {
+    max-width: 490px;
+    font-size: 15px;
+  }
+
+  .skills-grid {
+    gap: 15px;
+  }
+
+  .skill-item img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 853px) {
+  .my-detail {
+    max-width: 580px;
+    font-size: 16px;
+  }
+
+  .skills-grid {
+    gap: 15px;
+  }
+
+  .skill-item img {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+@media only screen and (min-width: 912px) and (max-width: 1024px) {
+  .my-detail {
+    max-width: 700px;
+    font-size: 18px;
+  }
+
+  .skills-grid {
+    gap: 20px;
+  }
+
+  .skill-item img {
+    width: 50px;
+    height: 50px;
+  }
 }

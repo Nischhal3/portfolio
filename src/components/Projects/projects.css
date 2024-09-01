@@ -1,8 +1,9 @@
 .projects-container {
-  padding: 20px;
+  padding: 40px;
   margin: 0 auto;
   text-align: center;
-  height: 70vh;
+  height: 100%;
+  width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,7 +11,6 @@
 
 .projects-container h2 {
   margin-bottom: 40px;
-  font-size: 2rem;
   text-decoration: underline;
 }
 
@@ -33,7 +33,7 @@
   text-align: left;
   transition: transform 0.3s, box-shadow 0.3s;
   cursor: pointer;
-  height: 270px;
+  height: 280px;
 }
 
 .project-card:hover {
@@ -77,5 +77,170 @@
   background-color: #dfe5d5;
   padding: 5px;
   border-radius: 15px;
-  font-size: 10px;
+  font-size: 12px;
+}
+
+@media only screen and (min-width: 344px) and (max-width: 430px) {
+  .projects-container {
+    height: 100%;
+    padding: 20px;
+  }
+
+  .projects-grid {
+    max-width: 300px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .project-card {
+    width: 250px;
+    height: 220px;
+  }
+
+  .project-title {
+    font-size: 16px;
+    margin-top: -15px;
+    margin-bottom: 5px;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .project-card:hover {
+    transform: scale(1);
+  }
+  .stack div {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 390px) {
+  .projects-grid {
+    max-width: 330px;
+  }
+
+  .project-card {
+    width: 280px;
+    height: 250px;
+  }
+}
+
+@media only screen and (min-width: 412px) and (max-width: 430px) {
+  .projects-grid {
+    max-width: 370px;
+  }
+
+  .project-card {
+    width: 320px;
+    height: 270px;
+  }
+
+  .project-title {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+  .project-card:hover {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 431px) and (max-width: 540px) {
+  .projects-grid {
+    max-width: 490px;
+  }
+  .project-card {
+    width: 420px;
+    height: 340px;
+  }
+
+  .project-title {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+  .project-card:hover {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 853px) {
+  .projects-grid {
+    max-width: 700px;
+  }
+
+  .projects-grid {
+    max-width: 670px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+  }
+  .project-card {
+    width: 265px;
+    height: 220px;
+  }
+
+  .project-title {
+    font-size: 16px;
+    margin-top: -10px;
+  }
+
+  .description {
+    font-size: 12px;
+  }
+  .project-card:hover {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 912px) and (max-width: 1024px) {
+  .projects-grid {
+    max-width: 860px;
+  }
+
+  .projects-grid {
+    max-width: 750px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+  .project-card {
+    width: 315px;
+    height: 240px;
+  }
+
+  .project-title {
+    font-size: 16px;
+    margin-top: -10px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+  .project-card:hover {
+    transform: scale(1);
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1080px) {
+  .projects-grid {
+    max-width: 900px;
+  }
+
+  .projects-grid {
+    max-width: 850px;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  }
+
+  .project-card {
+    width: 345px;
+    height: 260px;
+  }
+  .project-card:hover {
+    transform: scale(1);
+  }
 }

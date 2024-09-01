@@ -26,6 +26,7 @@ export const navLinks = [
   { id: "about", label: "About", icon: "fa-user" },
   { id: "projects", label: "Projects", icon: "fa-diagram-project" },
   { id: "experience", label: "Experience", icon: "fa-briefcase" },
+  { id: "contact", label: "Contact", icon: "fa-address-card" },
 ];
 
 export const skills = [
@@ -44,7 +45,7 @@ export const skills = [
   { name: "Python", url: python },
   { name: "Java", url: java },
   { name: "C++", url: cPlus },
-  { name: "Robot Framework", url: robot },
+  // { name: "Robot Framework", url: robot },
 ];
 
 export const projects = [
@@ -83,7 +84,6 @@ export const projects = [
     link: "https://github.com/miksunGitHub/RestaurantFinder",
     stacks: ["IOS", "Swift"],
   },
-
   {
     name: "Cart Price Calculator",
     url: noPreview,
