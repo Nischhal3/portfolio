@@ -1,13 +1,44 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.4c775b84.css",
-    "main.js": "/portfolio/static/js/main.731cbb64.js",
+    "main.css": "/portfolio/static/css/main.95c2424e.css",
+    "main.js": "/portfolio/static/js/main.9cfbf393.js",
+    "static/media/desktop.jpg": "/portfolio/static/media/desktop.974d5a27c564a210d87b.jpg",
+    "static/media/fa-solid-900.ttf": "/portfolio/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
+    "static/media/nodeArtive.png": "/portfolio/static/media/nodeArtive.51cd86e924ed84675cd4.png",
+    "static/media/react-native.png": "/portfolio/static/media/react-native.49c37bcc86b8259bb642.png",
+    "static/media/fa-brands-400.ttf": "/portfolio/static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/python.png": "/portfolio/static/media/python.d8b377f05522bf35de36.png",
+    "static/media/fa-solid-900.woff2": "/portfolio/static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
+    "static/media/coding-guy.jpeg": "/portfolio/static/media/coding-guy.d9dc29f57ff5f45f9af0.jpeg",
+    "static/media/news.png": "/portfolio/static/media/news.f49a604657f03a7dd43a.png",
+    "static/media/event.png": "/portfolio/static/media/event.93756a388ffdef054fe9.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.78e014e209b5a58f0690.pdf",
+    "static/media/preOwned.png": "/portfolio/static/media/preOwned.76a43c1d7c5a441a90f0.png",
+    "static/media/fa-brands-400.woff2": "/portfolio/static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
+    "static/media/robot.png": "/portfolio/static/media/robot.e5574446405535bf9bd7.png",
+    "static/media/express.png": "/portfolio/static/media/express.f53f212d0d010d54c095.png",
+    "static/media/fa-regular-400.ttf": "/portfolio/static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/c-plus.png": "/portfolio/static/media/c-plus.bbadf6a5b3a55ddac2ca.png",
+    "static/media/ts.png": "/portfolio/static/media/ts.52ea0bc40ba11d507e7d.png",
+    "static/media/tailwind.png": "/portfolio/static/media/tailwind.8e81e4c5944b034a5865.png",
+    "static/media/android.jpg": "/portfolio/static/media/android.bfe7d3a0db6c6f997ccf.jpg",
+    "static/media/kotlin.jpg": "/portfolio/static/media/kotlin.4f0a2418715abef5152a.jpg",
+    "static/media/swift.png": "/portfolio/static/media/swift.d0cf8dd3a99e6de3edc6.png",
+    "static/media/fa-regular-400.woff2": "/portfolio/static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/postgers.png": "/portfolio/static/media/postgers.6c5d698f195dac2fe5af.png",
+    "static/media/java.jpg": "/portfolio/static/media/java.0a1ff37ad088755fe6a8.jpg",
+    "static/media/node-js.png": "/portfolio/static/media/node-js.1041f6a637f738116386.png",
+    "static/media/redux.png": "/portfolio/static/media/redux.b3b939c66aecf7d53967.png",
+    "static/media/fa-v4compatibility.ttf": "/portfolio/static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/js.png": "/portfolio/static/media/js.266bd9fb2663dcc057b4.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.17ec01314179e9a8ab58.png",
+    "static/media/fa-v4compatibility.woff2": "/portfolio/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/portfolio/index.html",
-    "main.4c775b84.css.map": "/portfolio/static/css/main.4c775b84.css.map",
-    "main.731cbb64.js.map": "/portfolio/static/js/main.731cbb64.js.map"
+    "main.95c2424e.css.map": "/portfolio/static/css/main.95c2424e.css.map",
+    "main.9cfbf393.js.map": "/portfolio/static/js/main.9cfbf393.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c775b84.css",
-    "static/js/main.731cbb64.js"
+    "static/css/main.95c2424e.css",
+    "static/js/main.9cfbf393.js"
   ]
 }
