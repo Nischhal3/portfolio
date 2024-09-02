@@ -34,7 +34,7 @@
   color: rebeccapurple;
 }
 
-@media only screen and (min-width: 344px) and (max-width: 540px) {
+@media only screen and (min-width: 320px) and (max-width: 540px) {
   .contact-sidebar {
     position: sticky;
     padding: 0;
@@ -54,8 +54,21 @@
     left: -35px;
   }
 }
+
 @media only screen and (min-width: 912px) and (max-width: 1024px) {
   .contact-sidebar {
     left: -30px;
+  }
+}
+
+@media only screen and (min-width: 1080px) and (max-width: 1280px) {
+  .contact-sidebar {
+    left: -20px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+  .contact-link:hover {
+    color: #008080;
   }
 }

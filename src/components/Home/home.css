@@ -72,7 +72,7 @@ button:focus {
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
 
-@media only screen and (min-width: 344px) and (max-width: 430px) {
+@media only screen and (min-width: 320px) and (max-width: 430px) {
   .home-container {
     height: 50vh;
   }
@@ -93,6 +93,12 @@ button:focus {
   button {
     font-size: 12px;
     padding: 6px;
+  }
+}
+
+@media (max-width: 320px) {
+  .profession {
+    font-size: 14px !important;
   }
 }
 
@@ -129,9 +135,11 @@ button:focus {
     height: 250px;
     width: 250px;
   }
+
   .name {
     font-size: 20px;
   }
+
   .profession {
     font-size: 24px;
   }
@@ -146,10 +154,33 @@ button:focus {
     height: 250px;
     width: 250px;
   }
+
   .name {
     font-size: 22px;
   }
+
   .profession {
     font-size: 30px;
+  }
+}
+
+@media (max-height: 600px) {
+  .my-image {
+    width: 180px;
+    height: 180px;
+    margin-top: 10px;
+  }
+
+  .name {
+    font-size: 16px;
+  }
+
+  .profession {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 6px;
   }
 }
