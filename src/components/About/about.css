@@ -1,8 +1,6 @@
 .about-container {
   margin: 0 auto;
-  padding: 0 20px;
   padding: 50px 0;
-  height: 100%;
   width: 100%;
   background-color: #fff;
   color: black;
@@ -43,7 +41,7 @@
   margin: 0 auto;
   position: relative;
   overflow: hidden;
-  background-color: #222222;
+  background-color: #0f172a;
   padding-top: 40px;
 }
 
@@ -134,7 +132,7 @@
 
 @media only screen and (min-width: 431px) and (max-width: 540px) {
   .my-detail {
-    max-width: 490px;
+    max-width: 470px;
     font-size: 15px;
   }
 

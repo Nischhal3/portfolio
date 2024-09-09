@@ -98,25 +98,62 @@ export const experiences = [
   {
     role: "Web & Android Developer",
     company: "Nokia",
-    location: "Espoo, Finland (Hybrid)",
-    duration: "June 2023 – Ongoing",
+    location: "Espoo, Finland",
+    duration: "June 2023 – Present",
     responsibilities: [
-      "Implementing new features.",
-      "Resolving bugs in existing projects.",
-      "Creating comprehensive documentation for implemented features.",
-      "Handling fault reports from customers, ensuring timely and effective resolutions.",
-      "Updating codebase from React to TypeScript, improving code quality and maintainability.",
+      "Implementing new features to enhance functionality and user experience.",
+      "Resolving bugs in existing projects to ensure smooth and reliable performance.",
+      "Creating comprehensive documentation for newly implemented features to provide clear and useful information.",
+      "Handling fault reports from customers and ensuring timely and effective resolutions.",
+      "Updating the codebase from React to TypeScript to improve code quality and maintainability.",
     ],
+    technologies: [
+      "TypeScript",
+      "React",
+      "Node.js",
+      "Postgres",
+      "Python",
+      "Git",
+      "Robot Framework",
+    ],
+    url: "https://www.nokia.com/",
+    responsibility: `
+    Enhancing functionality and improving user experience by
+    implementing new features. Resolving bugs in existing projects
+    to ensure smooth and reliable performance. Creating
+    comprehensive documentation for newly implemented features,
+    providing clear and useful information for users and developers.
+    Handling fault reports from customers, ensuring timely and
+    effective resolutions. Updating the codebase from
+    React to TypeScript to improve code quality, maintainability,
+    and overall project stability. Working closely with team members, 
+    the product owner, and the manager to ensure alignment and 
+    efficient project execution. Additionally, collaborating with 
+    colleagues on feature development, contributing to the successful 
+    implementation of new functionalities.
+    `,
   },
   {
     role: "Test Engineer Trainee in 5G Control Plane",
     company: "Nokia",
-    location: "Espoo, Finland (Hybrid)",
+    location: "Espoo, Finland",
     duration: "June 2022 – June 2023",
     responsibilities: [
-      "Developed and maintained test cases using the Robot Framework.",
       "Ensured high software quality through rigorous testing protocols.",
+      "Created and executed comprehensive test cases to evaluate new features.",
       "Automated testing for 4G & 5G softwares, significantly reducing manual effort.",
+      "Managed CRT (Continuous Regression Testing) and CIT (Continuous Integration Testing).",
     ],
+    technologies: ["Python", "Git", "Robot Framework"],
+    url: "https://www.nokia.com/",
+    responsibility: `
+    Ensured high software quality through rigorous testing
+    protocols. Created and executed comprehensive test cases to
+    evaluate new features. Automated testing for 4G and 5G
+    software, significantly reducing manual effort. Additionally,
+    managed Continuous Regression Testing (CRT) and Continuous
+    Integration Testing (CIT) to maintain software reliability and
+    performance.
+    `,
   },
 ];

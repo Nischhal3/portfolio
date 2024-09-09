@@ -16,15 +16,15 @@ const About = () => {
             started my career in Nokia on June 2022, initially working as a Test
             Engineer in 5G Control Plane, where I was responsible for testing
             software related to base station and user equipments(mobile
-            devices). After a year in this role, I transitioned to web
+            devices). After a year in this role, I transitioned to software
             development at the same company in August 2023 and have been
             continuously contributing to the team since.
           </p>
           <p className="justified-text">
             My work is characterized by high problem-solving skills, effective
             communication, and the ability to thrive in collaborative team
-            environments. I am proficient in a range of technologies and tools,
-            including:
+            environments. I excel in clean coding practices and am proficient in
+            a range of technologies and tools, including:
           </p>
         </div>
         <div className="skills-grid">

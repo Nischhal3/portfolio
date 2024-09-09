@@ -1,121 +1,152 @@
 .experience-container {
   margin: 0 auto;
   text-align: center;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-color: white;
   color: black;
 }
-
 .experience-container h2 {
-  text-decoration: underline;
+  margin-top: 40px;
 }
 
 .experience {
-  font-size: 14px;
+  color: white;
+  max-width: 1100px;
+  min-height: 600px;
+}
+
+.info {
+  padding: 20px;
+  margin: 30px;
+  background-color: #0f172a;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.duration {
+  flex: 1;
+}
+
+.detail {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   text-align: left;
-  padding: auto;
+}
+
+.detail div h4 {
+  margin: 5px 0 5px 0;
+}
+
+.detail div h3 {
   margin: 0;
 }
 
-.experience {
-  font-size: 14px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
-.experience > div {
-  margin-bottom: 20px;
-}
-
-.experience h3 {
-  font-size: 18px;
-  margin-bottom: 5px;
-  text-decoration: underline;
-}
-
-.experience p {
-  margin: 5px 0;
-  font-size: 14px;
-  color: #555;
-}
-
-.experience ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-.experience li {
-  position: relative;
-  padding-left: 24px;
+.detail p {
   margin-bottom: 10px;
-  font-size: 14px;
+  text-align: justify;
+  text-align-last: left;
+  line-height: 1.6;
 }
 
-.experience > div:not(:first-of-type) {
-  margin-top: 50px;
+.technology {
+  max-width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 430px) {
-  .experience-container {
-    height: 100%;
-  }
-
-  .experience h3 {
-    font-size: 16px;
-  }
-  .experience p,
-  .experience li {
-    font-size: 12px;
-  }
+.technology div {
+  background-color: #14304d;
+  padding: 7px;
+  margin-left: -5px;
+  border-radius: 20px;
 }
 
-@media only screen and (min-width: 412px) and (max-width: 540px) {
-  .experience h3 {
-    font-size: 17px;
-  }
-  .experience p,
-  .experience li {
-    font-size: 14px;
-  }
+.info:hover h3,
+.info:hover h4,
+.info:hover .duration,
+.info:hover .technology div {
+  color: #5ae0d2;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 853px) {
-  .experience-container {
-    height: 80vh;
+@media only screen and (min-width: 320px) and (max-width: 820px) {
+  .info {
+    flex-direction: column;
   }
 
-  .experience p,
-  .experience li {
-    font-size: 16px;
-    margin-left: 30px;
+  .duration {
+    margin-bottom: 10px;
   }
-
-  .experience p,
-  .experience li,
-  .experience h3 {
-    margin-left: 45px;
+  .experience {
+    max-width: 700px;
   }
 }
 
-@media only screen and (min-width: 912px) and (max-width: 1024px) {
-  .experience p,
-  .experience li,
-  .experience h3 {
-    margin-left: 35px;
+@media only screen and (min-width: 768px) and (max-width: 820px) {
+  .experience {
+    margin-left: 25px;
+    max-width: 750px;
   }
 }
 
-@media only screen and (min-width: 912px) and (max-width: 1024px) and (max-height: 1368px) {
-  .experience-container {
-    height: 50vh;
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+  .experience {
+    margin-left: 10px;
+    max-width: 495px;
   }
 }
 
-@media only screen and (max-width: 1024px) and (max-height: 600px) {
-  .experience-container {
-    height: 100vh;
+@media only screen and (min-width: 912px) {
+  .experience {
+    max-width: 850px;
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (min-width: 920px) and (max-width: 1024px) {
+  .experience {
+    margin-right: 20px;
+    max-width: 900px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 1366px) {
+  .experience {
+    margin-left: 10px;
+    max-width: 900px;
+  }
+}
+@media only screen and (min-width: 853px) and (max-height: 1280px) {
+  .experience {
+    margin-left: 10px;
+    max-width: 750px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 600px) {
+  .experience {
+    margin-left: 10px;
+    max-width: 900px;
+  }
+}
+
+@media only screen and (min-width: 1280px) and (min-height: 800px) {
+  .experience {
+    max-width: 1150px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 920px) {
+  .info:hover h3,
+  .info:hover h4,
+  .info:hover .duration,
+  .info:hover .technology div {
+    color: inherit;
   }
 }
