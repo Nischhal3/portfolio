@@ -274,3 +274,14 @@
     transform: scale(1);
   }
 }
+
+@media only screen and (min-width: 1300px) {
+  .projects-grid {
+    max-width: 1080px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .project-card {
+    width: 300px;
+  }
+}
