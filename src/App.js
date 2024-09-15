@@ -15,6 +15,8 @@ import { navLinks } from "./constants";
 
 const App = () => {
   const [isAboutSectionActive, setIsAboutSectionActive] = useState(false);
+  const [isScrollingUp, setIsScrollingUp] = useState(true);
+  const lastScrollY = useRef(0); // To store the last scroll position
 
   const sectionRefs = useRef({
     home: React.createRef(),
@@ -23,6 +25,27 @@ const App = () => {
     experience: React.createRef(),
     contact: React.createRef(),
   });
+
+  // Handle scroll direction
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+      if (currentScrollY > lastScrollY.current) {
+        // Scrolling down
+        setIsScrollingUp(false);
+      } else {
+        // Scrolling up
+        setIsScrollingUp(true);
+      }
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   useEffect(() => {
     const { home, about, projects, experience, contact } = sectionRefs.current;
@@ -56,7 +79,8 @@ const App = () => {
 
   return (
     <div className={`app ${isAboutSectionActive ? "about-active" : ""}`}>
-      <nav className="app-nav">
+      {/* Toggle the nav visibility based on scroll direction */}
+      <nav className={`app-nav ${isScrollingUp ? "visible" : "hidden"}`}>
         <ul>
           {navLinks
             .filter((link) => link.id !== "contact")

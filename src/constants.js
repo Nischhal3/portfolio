@@ -96,10 +96,10 @@ export const projects = [
 
 export const experiences = [
   {
-    role: "Web & Android Developer",
+    role: "Web Developer",
     company: "Nokia",
     location: "Espoo, Finland",
-    duration: "June 2023 – Present",
+    duration: "August 2023 – Present",
     responsibilities: [
       "Implementing new features to enhance functionality and user experience.",
       "Resolving bugs in existing projects to ensure smooth and reliable performance.",
@@ -137,7 +137,7 @@ export const experiences = [
     role: "Test Engineer Trainee in 5G Control Plane",
     company: "Nokia",
     location: "Espoo, Finland",
-    duration: "June 2022 – June 2023",
+    duration: "June 2022 – July 2023",
     responsibilities: [
       "Ensured high software quality through rigorous testing protocols.",
       "Created and executed comprehensive test cases to evaluate new features.",

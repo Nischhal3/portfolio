@@ -20,6 +20,15 @@ body {
   z-index: 1000;
   display: flex;
   justify-content: flex-end;
+  transition: transform 0.5s ease-in-out;
+}
+
+.app-nav.hidden {
+  transform: translateY(-100%);
+}
+
+.app-nav.visible {
+  transform: translateY(0);
 }
 
 .app-nav ul {
